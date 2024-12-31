@@ -208,6 +208,7 @@ class Pagodo:
                     proxy=proxy,
                     verify_ssl=not self.disable_verify_ssl,
                     verbosity=self.verbosity,
+                    http_429_cool_off_time_in_minutes=1  # 429 sleep time
                 )
 
                 # Randomize the user agent for best results.
