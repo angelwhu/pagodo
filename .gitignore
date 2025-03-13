@@ -4,3 +4,4 @@ pagodo_results*.txt
 __pycache__/
 .venv/
 .idea
+result_gob_mx.json
