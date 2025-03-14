@@ -4,7 +4,6 @@ intext:(password | passcode) intext:(username | userid | user) filetype:csv
 intitle:"web server status" SSH Telnet
 inurl:/cgi-bin/pass.txt
 filetype:reg reg HKEY_CURRENT_USER SSHHOSTKEYS
-intext:"~~Joomla1.txt" title:"Index of /"
 intext:"PHP Version " ext:php intext:"disabled" intext:"Build Date" intext:"System" intext:"allow_url_fopen"
 intitle:"Browse Directory"
 intitle:index.of
