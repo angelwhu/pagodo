@@ -1,4 +1,4 @@
-inurl:"phpmyadmin/index.php"
+inurl:"phpmyadmin/"
 intitle:"index of"
 intext:(password | passcode) intext:(username | userid | user) filetype:csv
 intitle:"web server status" SSH Telnet
